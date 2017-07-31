@@ -136,6 +136,36 @@ p {
     animation: sec0 1s ease-in-out 100ms forwards;
 }
 
+#section1 .title {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+#section1 p {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+#section2 .title {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+#section2 p {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+#section3 .title {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+#section3 p {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
 @-webkit-keyframes sectitle0 {
     0% {
         -webkit-transform: translateX(-100%);

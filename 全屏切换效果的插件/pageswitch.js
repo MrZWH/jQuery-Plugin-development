@@ -179,6 +179,8 @@
                     me.sections.css(_prefix + "transition", "all " + me.settings.duration + "ms " + me.settings.easing);
                     var translate = me.direction ? "translateY(-" + dest.top + "px)" : "translateX(-" + dest.left + "px)";
                     me.sections.css(_prefix + "transform", translate);
+                    me.section.eq(me.index).find("p").css(_prefix + "animation","sec0 1s ease-in-out 100ms forwards");
+                    me.section.eq(me.index).find(".title").css(_prefix + "animation","sectitle0 1s ease-in-out 100ms forwards");
                 } else {
                     var animateCss = me.direction ? {top: -dest.top} : {left: -dest.left};
                     me.sections.animate(animateCss, me.settings.duration, function() {
